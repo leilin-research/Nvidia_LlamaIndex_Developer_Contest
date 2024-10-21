@@ -32,11 +32,30 @@ The traffic accident data is sourced from the Michigan Traffic Crash Facts websi
 
 The ChatBot can answer interesting questions such as:
 
-- What are the most common traffic accident patterns?
-- What is the average age of drivers involved in traffic accidents?
-- What is the most frequent weather condition when traffic accidents occur?
-- What time of day do most accidents occur?
-- Which vehicle makes are most frequently involved in accidents?
+1. **What are the most common traffic accident patterns?**
+   ```diff
+   + Rear-end collisions and sideswipe-same incidents are among the most common traffic accident patterns based on the provided context information.
+   ```
+
+2. **What is the average age of the drivers involved in the traffic accidents?**
+   ```diff
+   + The average age of the drivers involved in the traffic accidents is 53.3 years.
+   ```
+
+3. **What is the most frequent weather condition when traffic accidents happened?**
+   ```diff
+   + The most frequent weather condition when traffic accidents happened based on the provided context information is snow.
+   ```
+
+4. **What time of day do most accidents occur?**
+   ```diff
+   + Accidents in the provided context occurred during different times of the day - both during daylight and at night.
+   ```
+
+5. **Which vehicle makes are most frequently involved in accidents?**
+   ```diff
+   + HONDA, FORD, and TOYOTA vehicles are most frequently involved in accidents based on the provided context information.
+   ```
 
 ## Challenges
 
@@ -57,6 +76,3 @@ A significant challenge was removing personal sensitive information from the tra
 ## Conclusion
 
 This project demonstrates the potential of combining advanced NLP techniques with comprehensive traffic accident data to gain valuable insights. By addressing privacy concerns and leveraging powerful language models, we can create tools that assist in understanding and potentially reducing traffic accidents. Participation in the NVIDIA LlamaIndex Developer Contest has provided a platform for innovation using state-of-the-art technologies.
-
-Citations:
-[1] https://developer.nvidia.com/llamaindex-developer-contest
